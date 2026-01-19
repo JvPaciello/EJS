@@ -4,6 +4,9 @@ Projeto desenvolvido durante um curso de Node.js com o objetivo de praticar conc
 
 O foco principal do projeto foi o aprendizado prático e a consolidação da base em desenvolvimento web.
 
+##Deploy:
+https://ejs-bflr.onrender.com/
+
 ---
 
 ## Sobre o projeto
