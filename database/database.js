@@ -1,8 +1,8 @@
-require("dotenv").config();
 const { Sequelize } = require("sequelize");
 
-const connection = new Sequelize(process.env.DATABASE_URL, {
-  dialect: "mysql",
+const connection = new Sequelize({
+  dialect: "sqlite",
+  storage: "./database.sqlite",
   logging: false,
 });
 

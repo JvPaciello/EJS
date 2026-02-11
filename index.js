@@ -7,7 +7,7 @@ const Pergunta = require("./database/Pergunta");
 const Resposta = require("./database/Resposta");
 
 connection
-  .authenticate()
+  .sync()
   .then(() => {
     console.log("Conexão bem sucedida!");
   })
